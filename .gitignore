@@ -1,0 +1,32 @@
+# Variaveis e credenciais
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Logs e arquivos temporarios
+*.log
+*.tmp
+*.bak
+
+# Dados locais/sensiveis
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+backups/
+
+# Sistema operacional/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
