@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Saida de Produtos</title>
+    <link rel="stylesheet" href="/app.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar">
+        <div>
+          <h1>Saida de Produtos</h1>
+          <p id="statusText">Carregando inventario...</p>
+        </div>
+        <button id="reloadButton" type="button">Atualizar</button>
+      </section>
+
+      <form id="scanForm" class="scan-panel">
+        <label for="codeInput">Codigo bipado</label>
+        <div class="scan-row">
+          <input id="codeInput" name="code" inputmode="numeric" autocomplete="off" autofocus />
+          <button type="submit">Adicionar</button>
+        </div>
+      </form>
+
+      <section class="items-panel">
+        <div class="panel-header">
+          <h2>Itens bipados</h2>
+          <span id="totalText">0 etiquetas</span>
+        </div>
+        <div id="message" class="message" hidden></div>
+        <div id="itemsList" class="items-list"></div>
+      </section>
+
+      <section class="actions">
+        <button id="clearButton" type="button" class="secondary">Limpar</button>
+        <button id="printButton" type="button">Finalizar e imprimir</button>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

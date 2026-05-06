@@ -1,0 +1,11 @@
+sku,tipo,codigo_barras,descricao,medidas,peso_unitario_g,preco_unitario,composicao
+TXT-CAM-BAS-M-AZ,Camiseta,7891000000011,Camiseta basica algodao,Tam M / Azul,180,39.90,100% algodao
+TXT-CAM-BAS-G-PT,Camiseta,7891000000028,Camiseta basica algodao,Tam G / Preto,185,39.90,100% algodao
+TXT-CAL-JEA-40-AZ,Calca Jeans,7891000000035,Calca jeans masculina,Tam 40 / Azul,520,129.90,98% algodao 2% elastano
+TXT-BER-MOL-P-CZ,Bermuda,7891000000042,Bermuda moletom,Tam P / Cinza,260,69.90,60% algodao 40% poliester
+TXT-VES-LIN-M-VD,Vestido,7891000000059,Vestido linho,Tam M / Verde,310,159.90,55% linho 45% viscose
+TXT-JAQ-SAR-G-BG,Jaqueta,7891000000066,Jaqueta sarja,Tam G / Bege,640,199.90,100% algodao
+TXT-BLU-VIS-P-RS,Blusa,7891000000073,Blusa viscose,Tam P / Rosa,150,79.90,100% viscose
+TXT-SAI-PLS-M-PT,Saia,7891000000080,Saia plissada,Tam M / Preto,220,89.90,100% poliester
+TXT-MOL-CAP-G-CZ,Moletom,7891000000097,Moletom com capuz,Tam G / Cinza,580,149.90,50% algodao 50% poliester
+TXT-CAM-SOC-42-BR,Camisa,7891000000103,Camisa social,Tam 42 / Branco,240,119.90,65% algodao 35% poliester

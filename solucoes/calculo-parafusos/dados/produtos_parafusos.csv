@@ -1,0 +1,11 @@
+sku,tipo,codigo_barras,descricao,medidas,peso_unitario_g,preco_unitario
+PAR-M4X10-ZB,Parafuso sextavado,7890000004101,Parafuso sextavado zincado,M4 x 10 mm,1.25,0.08
+PAR-M4X16-ZB,Parafuso sextavado,7890000004163,Parafuso sextavado zincado,M4 x 16 mm,1.75,0.11
+PAR-M5X20-ZB,Parafuso sextavado,7890000005207,Parafuso sextavado zincado,M5 x 20 mm,3.15,0.18
+PAR-M6X20-ZB,Parafuso sextavado,7890000006204,Parafuso sextavado zincado,M6 x 20 mm,5.60,0.27
+PAR-M6X30-ZB,Parafuso sextavado,7890000006303,Parafuso sextavado zincado,M6 x 30 mm,7.80,0.34
+PAR-M8X30-ZB,Parafuso sextavado,7890000008307,Parafuso sextavado zincado,M8 x 30 mm,15.20,0.72
+PAR-AA-42X13,Parafuso auto atarraxante,7890000042136,Parafuso auto atarraxante cabeca panela,4.2 x 13 mm,1.85,0.12
+PAR-AA-42X19,Parafuso auto atarraxante,7890000042198,Parafuso auto atarraxante cabeca panela,4.2 x 19 mm,2.45,0.15
+PAR-PH-M5X25,Parafuso phillips,7890000055250,Parafuso phillips cabeca chata,M5 x 25 mm,4.10,0.22
+PAR-ALL-M6X50,Parafuso allen,7890000066508,Parafuso allen cabeca cilindrica,M6 x 50 mm,12.40,0.65

@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #18202a;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.shell {
+  width: min(760px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.topbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0 18px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p,
+#totalText {
+  color: #596579;
+  font-size: 14px;
+}
+
+.scan-panel,
+.items-panel {
+  background: #ffffff;
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.scan-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+}
+
+input {
+  min-width: 0;
+  border: 1px solid #aeb8c6;
+  border-radius: 6px;
+  padding: 13px 12px;
+  background: #ffffff;
+}
+
+button {
+  border: 0;
+  border-radius: 6px;
+  padding: 12px 14px;
+  background: #1769aa;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: #566274;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.panel-header,
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.items-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #dce2ea;
+  border-radius: 8px;
+  background: #fbfcfe;
+}
+
+.item strong,
+.item span {
+  display: block;
+}
+
+.item span {
+  margin-top: 3px;
+  color: #596579;
+  font-size: 13px;
+}
+
+.item.missing {
+  border-color: #d34b4b;
+  background: #fff7f7;
+}
+
+.qty {
+  min-width: 44px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.remove {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  background: #b23636;
+}
+
+.message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  background: #fff3cd;
+  color: #654d00;
+}
+
+@media (max-width: 520px) {
+  .topbar,
+  .actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .scan-row {
+    grid-template-columns: 1fr;
+  }
+}

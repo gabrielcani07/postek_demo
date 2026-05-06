@@ -13,6 +13,8 @@ venv/
 node_modules/
 
 # Logs e arquivos temporarios
+logs/
+saida/
 *.log
 *.tmp
 *.bak
@@ -29,4 +31,3 @@ backups/
 Thumbs.db
 .vscode/
 .idea/
-

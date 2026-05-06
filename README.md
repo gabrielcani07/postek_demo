@@ -22,6 +22,13 @@ Os exemplos oficiais/localizados estao documentados em:
 docs/REFERENCIAS_POSTEK.md
 ```
 
+## Solucoes em desenvolvimento
+
+| Solucao | Descricao |
+| --- | --- |
+| `solucoes/calculo-parafusos` | Calcula quantidade de parafusos por peso, usando cadastro local e simulacao de balanca |
+| `solucoes/saida-produtos-cache` | Bipa saidas de produtos, agrupa etiquetas em cache e envia impressao para POSTEK |
+
 ## Fluxo recomendado
 
 1. Descrever a necessidade da etiqueta ou automacao.
@@ -29,4 +36,3 @@ docs/REFERENCIAS_POSTEK.md
 3. Criar uma primeira versao simples.
 4. Testar em ambiente controlado antes de usar em producao.
 5. Registrar ajustes e versoes neste repositorio.
-
