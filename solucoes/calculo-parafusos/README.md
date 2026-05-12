@@ -25,7 +25,8 @@ valor_total = quantidade * preco_unitario
 
 - Banco teste em CSV, abrivel pelo Excel.
 - Simulador local em Python.
-- Entrada manual simulando a balanca.
+- Entrada manual no simulador local.
+- Leitura direta da balanca Urano US POP-S no OX Script da POSTEK via USB-serial CH340.
 - Calculo automatico da quantidade e do valor total.
 - Geracao de arquivo `saida/ultima_etiqueta.json` com os dados calculados.
 
@@ -73,9 +74,9 @@ Campos:
 
 ## Riscos e pontos para confirmar
 
-- Protocolo real da balanca: serial, USB, TCP, Bluetooth ou outro.
-- Formato do dado enviado pela balanca: exemplo `ST,GS,+002.500kg` ou apenas `2500`.
-- Se a POSTEK consegue ler diretamente a balanca pela porta disponivel.
+- A solucao usa acesso USB bruto ao conversor CH340 da balanca dentro do OX Script.
+- Validado na POSTEK com a balanca Urano US POP-S enviando formatos como `PESO L: 0.634kg`, `T2BN0 0,110 kg` e `00326`.
+- A impressora precisa permitir acesso a `/sys/bus/usb/devices` e `/dev/bus/usb` pelo OX Script.
 - Como o layout do BarTender vai expor os campos variaveis.
 - Tolerancia aceitavel: peso real pode variar por lote, sujeira, banho, rebarba ou calibracao da balanca.
 
